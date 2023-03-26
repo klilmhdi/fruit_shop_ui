@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Fruit Shop UI',
       theme: ThemeData(useMaterial3: true),
+      debugShowCheckedModeBanner: false,
       home: const IntroPage(),
     );
   }
